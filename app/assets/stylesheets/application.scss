@@ -19,6 +19,11 @@
 $font: 'Times New Roman', 'Times', serif;
 $color: #FFFFFF;
 
+form label, form input {
+display: block;
+margin: 10px;
+}
+
 body {
 font-family: $font;
 background-color: $color;
