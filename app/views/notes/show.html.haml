@@ -10,3 +10,8 @@
 = link_to 'Edit', edit_note_path(@note)
 \|
 = link_to 'Back', notes_path
+
+%p= link_to 'Add Task', new_task_path(note_id: @note)
+= link_to 'Edit', edit_note_path(@note)
+\|
+= link_to 'back', notes_path
